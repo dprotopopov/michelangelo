@@ -1,0 +1,54 @@
+﻿<div data-options="dxView : { name: 'View1', title: 'View1' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <canvas id="myCanvas" style="width: 100%; height: 100%;"></canvas>
+        <div style="position:absolute; top:0;left:0;" data-bind="dxToolbar:{dataSource: toolbarItems}"></div>
+        <div id="openOverlayContainer" data-bind="dxOverlay: { visible: openOverlayVisible }">
+            <div class="openOverlayContents">
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">Filename</div>
+                        <div id="openfilename" class="dx-field-value" data-bind="dxTextBox: { value:filename }"></div>
+                    </div>
+                </div>
+                <div class="button" data-bind="dxButton: { text: 'Cancel', clickAction: cancelOpenOverlay }"></div>
+                <div class="button" data-bind="dxButton: { text: 'Ok', clickAction: okOpenOverlay }"></div>
+            </div>
+        </div>
+        <div id="saveOverlayContainer" data-bind="dxOverlay: { visible: saveOverlayVisible }">
+            <div class="saveOverlayContents">
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">Filename</div>
+                        <div id="savefilename" class="dx-field-value" data-bind="dxTextBox: { value:filename }"></div>
+                    </div>
+                </div>
+                <div class="button" data-bind="dxButton: { text: 'Cancel', clickAction: cancelSaveOverlay }"></div>
+                <div class="button" data-bind="dxButton: { text: 'Ok', clickAction: okSaveOverlay }"></div>
+            </div>
+        </div>
+        <div id="urlOverlayContainer" data-bind="dxOverlay: { visible: urlOverlayVisible }">
+            <div class="urlOverlayContents">
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">URL</div>
+                        <div id="url" class="dx-field-value" data-bind="dxTextBox: { value:objUrl }"></div>
+                    </div>
+                </div>
+                <div class="button" data-bind="dxButton: { text: 'Cancel', clickAction: cancelUrlOverlay }"></div>
+                <div class="button" data-bind="dxButton: { text: 'Ok', clickAction: okUrlOverlay }"></div>
+            </div>
+        </div>
+        <div id="emailOverlayContainer" data-bind="dxOverlay: { visible: emailOverlayVisible }">
+            <div class="emailOverlayContents">
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">email</div>
+                        <div id="email" class="dx-field-value" data-bind="dxTextBox: { value:email }"></div>
+                    </div>
+                </div>
+                <div class="button" data-bind="dxButton: { text: 'Cancel', clickAction: cancelEmailOverlay }"></div>
+                <div class="button" data-bind="dxButton: { text: 'Ok', clickAction: okEmailOverlay }"></div>
+            </div>
+        </div>
+    </div>
+</div>

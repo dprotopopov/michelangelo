@@ -1,0 +1,21 @@
+# Built application files
+*.xap
+*.apk
+*.ap_
+*.appxupload
+
+# Generated files
+Backup/
+bin/
+mobile/
+story_content/
+icons/
+Win8Phone.icons/
+packages/
+csg.js/
+hammer.js/
+json3/
+sparks.js/
+three.js/
+ThreeCSG/
+tween.js/

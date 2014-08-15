@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a37feb6d-5c9e-48b3-bd80-0497e2cc3b23</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <ApplicationPage>app.html</ApplicationPage>
+    <Name>Shared</Name>
+    <RootNamespace>sculpt</RootNamespace>
+    <KeyApkPath />
+    <KeyApkAlias />
+    <VersionCode>1</VersionCode>
+    <TemplateFileApk />
+    <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
+    <KeyIpaPath />
+    <ProvisionProfile />
+    <IpaPrivateKeyFile />
+    <TemplateFileIpa />
+    <UseCustomTemplateNameIpa>False</UseCustomTemplateNameIpa>
+    <IpaDevicesFamily>Universal</IpaDevicesFamily>
+    <IpaSupportedLanguages />
+    <XapPackagePublisherID>{8e82df25-5265-4cf4-99f9-ad20d1abcb01}</XapPackagePublisherID>
+    <XapPackageProductID>{a8dc268e-839a-44c8-bafb-7286f4ee92b2}</XapPackageProductID>
+    <TemplateFileXap />
+    <UseCustomTemplateNameXap>False</UseCustomTemplateNameXap>
+    <XapSupportedLanguages />
+    <DefaultLanguageXAP>en-US</DefaultLanguageXAP>
+    <AuthorKeyWgtPath />
+    <DistributorKeyWgtPath />
+    <ScreenOrientation>Default</ScreenOrientation>
+    <ApplicationTitle>Michelangelo</ApplicationTitle>
+    <BundleIdentifier>sculpt.Shared</BundleIdentifier>
+    <VersionPackage>1.0</VersionPackage>
+    <ShowSplashScreen>True</ShowSplashScreen>
+    <Accelerometer>False</Accelerometer>
+    <Camera>False</Camera>
+    <Capture>False</Capture>
+    <Compass>False</Compass>
+    <Connection>True</Connection>
+    <Contacts>False</Contacts>
+    <Device>True</Device>
+    <Events>False</Events>
+    <File>True</File>
+    <Geolocation>False</Geolocation>
+    <Media>False</Media>
+    <Notification>True</Notification>
+    <Storage>True</Storage>
+    <WhiteList />
+    <Links>
+      <LinkDescription>
+        <Project>38e8f4c7-ebac-4843-ba82-89725b21c28a</Project>
+        <Path />
+      </LinkDescription>
+      <LinkDescription>
+        <Project>186360ae-2ecf-413c-9ad4-8c82f6ef8638</Project>
+        <Path />
+      </LinkDescription>
+      <LinkDescription>
+        <Project>d0956a8f-5721-4eae-ae3e-38940d28614d</Project>
+        <Path>www</Path>
+      </LinkDescription>
+    </Links>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="csg.js\csg.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="data\db.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hammer.js\hammer.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hammer.js\hammer.min.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo.png" />
+    <Content Include="json3\lib\json3.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\dx.all.js" />
+    <Content Include="js\dx.all.debug.js" />
+    <Content Include="js\localization\dx.all.de.js" />
+    <Content Include="js\localization\dx.all.ja.js" />
+    <Content Include="js\localization\dx.all.ru.js" />
+    <Content Include="js\globalize.min.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-2.1.1.min.js" />
+    <Content Include="js\knockout-3.1.0.js" />
+    <Content Include="css\dx.spa.css" />
+    <Content Include="css\dx.common.css" />
+    <Content Include="css\dx.dark.css" />
+    <Content Include="css\dx.light.css" />
+    <Content Include="css\dx.android.holo-dark.css" />
+    <Content Include="css\dx.android.holo-light.css" />
+    <Content Include="css\dx.ios.default.css" />
+    <Content Include="css\dx.ios7.default.css" />
+    <Content Include="css\dx.win8.black.css" />
+    <Content Include="css\dx.win8.white.css" />
+    <Content Include="css\dx.tizen.black.css" />
+    <Content Include="css\dx.tizen.white.css" />
+    <Content Include="sculpt.shared.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="sparks.js\Sparks.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="textures\granit.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="textures\mramor.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="three.js\build\three.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="three.js\examples\js\Detector.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ThreeCSG\ThreeCSG.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="tween.js\build\tween.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\about.html" />
+    <Content Include="views\blank.html" />
+    <Content Include="views\View1.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\View1.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="csg.js\" />
+    <Folder Include="css\" />
+    <Folder Include="data\" />
+    <Folder Include="hammer.js\" />
+    <Folder Include="images\" />
+    <Folder Include="json3\" />
+    <Folder Include="json3\lib\" />
+    <Folder Include="js\" />
+    <Folder Include="js\localization\" />
+    <Folder Include="Resources\" />
+    <Folder Include="sparks.js\" />
+    <Folder Include="textures" />
+    <Folder Include="three.js\" />
+    <Folder Include="three.js\build\" />
+    <Folder Include="three.js\examples\" />
+    <Folder Include="three.js\examples\js\" />
+    <Folder Include="ThreeCSG\" />
+    <Folder Include="tween.js\" />
+    <Folder Include="tween.js\build\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PackageIcons.Android.ic_launcher_36_36.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_48_48.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_72_72.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_96_96.png" />
+    <None Include="Resources\PackageIcons.Android.splash_1280_720.png" />
+    <None Include="Resources\PackageIcons.Android.splash_200_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_200.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_480.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_800.png" />
+    <None Include="Resources\PackageIcons.Android.splash_720_1280.png" />
+    <None Include="Resources\PackageIcons.Android.splash_800_480.png" />
+    <None Include="Resources\PackageIcons.iOS.Default%402x~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-568h%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Landscape~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait%402x~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-Portrait~ipad.png" />
+    <None Include="Resources\PackageIcons.iOS.Default~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.icon%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-120.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-152.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-72.png" />
+    <None Include="Resources\PackageIcons.iOS.icon-76.png" />
+    <None Include="Resources\PackageIcons.iOS.icon.png" />
+    <None Include="Resources\PackageIcons.iOS.iTunesArtwork.png" />
+    <None Include="Resources\PackageIcons.Tizen.icon_117_117.png" />
+    <None Include="Resources\PackageIcons.WP.ApplicationIcon_99_99.png" />
+    <None Include="Resources\PackageIcons.WP.Background.png_144_144.png" />
+    <None Include="Resources\PackageIcons.WP.SplashScreenImage_768_1280.jpg" />
+    <None Include="Resources\PackageIcons.WP.TileMedium.png" />
+    <None Include="Resources\PackageIcons.WP.TileSmall.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences">
+    <Message Text="Copying references to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+  </Target>
+  <Target Name="CopyFilesToOutputDirectory">
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(GeneratedJavascript->'%(Identity)')" DestinationFiles="@(GeneratedJavascript-&gt;'%(Identity)'-&gt;'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+  </Target>
+  <Target Name="CoreCompile">
+    <!--<Message Text="'$(MSBuildToolsPath)'"></Message>-->
+    <!--<Message Text="'$(BuildingProject)'"></Message>-->
+    <!--<Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>-->
+    <!--<Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>-->
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>
